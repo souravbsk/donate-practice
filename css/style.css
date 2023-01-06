@@ -1,0 +1,158 @@
+/* @font-face {
+    font-family: inter;
+    src: url("../font\ familys/inter/static/Inter-Black");
+} */
+
+/* font-family:  */
+/* font-family:  */
+:root {
+    --primary: #FFEEEE;
+    --secondory: #1E1E1E;
+    --colorOne: #FF5959;
+    --colorTwo: #AA9F9F;
+    --colorThree: #FAFAFA;
+    --colorFour: #D9DBE1;
+    --colorFive: #4F9DA6;
+    --bodyColor: #707070;
+    --colorSix: #FFEEEE;
+    --primaryFont: 'Inter', sans-serif;
+    --bodyFont: 'Poppins', sans-serif;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1165px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.primary-title {
+    color: var(--secondory);
+    font-weight: 700;
+    font-size: 45px;
+    font-family: var(--primaryFont);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.primary-pera {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--bodyColor);
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+/* banner css start  */
+.header {
+    background-image: url('../assets/images/Rectangle\ 237.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* background: linear-gradient(360deg, rgba(18, 18, 18) 0%, rgba(18, 18, 18, 0)100%); */
+
+}
+
+.banner {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner .banner-title {
+    font-family: var(--primaryFont);
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.banner .banner-pera {
+    font-family: var(--bodyFont);
+    font-size: 18px;
+    padding: 0 15px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: var(--colorOne);
+    color: var(--primary);
+    border: none;
+    border: 2px solid (--primary);
+    padding: 16px 20px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* banner css end  */
+
+/* donate today css start  */
+.donate-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* donate today css end */
+.counter-warper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 45px;
+}
+
+.counter-item {
+    background-color: var(--colorThree);
+    padding: 40px 25px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--bodyColor);
+    font-family: var(--primaryFont);
+    border-radius: 5px;
+    border: 2px solid var(--colorSix);
+    transition: all 0.3s;
+}
+
+.counter-item:hover {
+    background-color: var(--colorSix);
+    border: 2px solid var(--colorOne);
+    cursor: pointer;
+
+}
+.others-taka-pera{
+    margin-bottom: 15px;
+}
+.donate-content  .donate-now{
+    margin-top: 30px;
+}
+/* donate today css end  */
+
+/* donate plan css start  */
+/* donate plan css end  */
+
+
+/*  */

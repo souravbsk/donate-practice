@@ -141,7 +141,7 @@ section {
 
 .counter-item {
     background-color: var(--colorThree);
-    padding: 40px 25px;
+    /* padding: 40px 25px; */
     text-align: center;
     font-weight: 700;
     font-size: 30px;
@@ -150,6 +150,11 @@ section {
     border-radius: 5px;
     border: 2px solid var(--colorThree);
     transition: all 0.3s;
+    width: 170px;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .counter-item:hover {

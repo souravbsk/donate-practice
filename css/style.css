@@ -265,6 +265,12 @@ section {
 }
 
 /* depend-donation section css end  */
+/* servive imag css start */
+.survive-img img {
+    object-position: left;
+}
+
+/* servive imag css end */
 /* get update css start  */
 .get-update {
     padding: 75px 190px;
@@ -365,6 +371,13 @@ section {
         height: 425px;
         object-position: initial;
     }
+
+    /* servive imag css start */
+    .survive-img img {
+        object-position: left;
+    }
+
+    /* servive imag css end */
 }
 
 @media only screen and (max-width: 556px) {
@@ -397,7 +410,8 @@ section {
         margin-bottom: 12px;
         padding: 0 15px;
     }
-    .counter-warper{
+
+    .counter-warper {
         padding: 0;
     }
 
@@ -450,9 +464,11 @@ section {
 
 
     }
+
     .get-touch {
         padding: 0 15px;
     }
+
     .get-touch .btn-primary {
         padding: 0px 5px;
     }
